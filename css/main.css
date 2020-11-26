@@ -61,6 +61,15 @@ html {
 
 }
 
+@media (prefers-reduced-motion) {
+}
+
+@media (prefers-color-scheme:dark) {
+}
+
+@media (prefers-color-scheme:light) {
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
