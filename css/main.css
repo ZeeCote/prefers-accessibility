@@ -69,7 +69,9 @@ html {
 
 }
 
-@media (prefers-color-scheme: dark) {
+/* stylelint-disable media-feature-name-no-unknown */
+
+/* @media (prefers-color-scheme: dark) {
 
   body {
     background-color: #000;
@@ -84,18 +86,9 @@ html {
 @media (prefers-color-scheme: light) {
 
   body {
-    background-color: #fff;
+    color: #000;
   }
 
-}
-
-/* stylelint-disable media-feature-name-no-unknown */
-
-/**
- * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
- * Unfortunately, Markbot, is a little too old to understand them. :(
- * =============
- */
+} */
 
 /* stylelint-enable */
